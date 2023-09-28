@@ -1,0 +1,22 @@
+/* Style for footer */
+
+footer {
+    background-color: #fff; 
+    text-align: center; 
+    padding: 20px 0; 
+  }
+  
+  .footer-cart {
+    background-color: #fff; 
+    text-align: center; 
+    padding: 20px 0; 
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    color: #333; 
+    font-size: 14px;
+  }
+  

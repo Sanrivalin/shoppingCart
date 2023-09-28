@@ -1,0 +1,51 @@
+/* Navbar STyles are here */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #264653;
+    padding: 25px 60px;
+    margin-bottom: 30px;
+  }
+  
+  .parallax-container {
+    background-image: url("../images/hero4.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 79vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
+  }
+  
+  .parallax-content {
+    background-color: rgba(26 26 26 / 4%); 
+    padding: 9px;
+    border-radius: 10px;
+  }
+  
+  .cart {
+    position: relative;
+    background-color: #fff;
+    color: #264653;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 4px;
+  }
+  
+  .cartAmount {
+    position: absolute;
+    top: -6px;
+    right: -4px;
+    font-size: 16px;
+    background-color: #2a9d8f;
+    color: #fff;
+    padding: 4px;
+    border-radius: 4px;
+  }
+  

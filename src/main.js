@@ -10,10 +10,10 @@ let generateShop = () => {
         return `<div id=product-id-${id} class="item">
         <img width="220" src=${img} alt="">
         <div class="details">
-            <h3>${name}</h3>
-            <p>${desc}</p>
+            <h3 class='title-details'>${name}</h3>
+            <p class='description-details'>${desc}</p>
             <div class="price-quantity">
-                <h2>$ ${price}</h2>
+                <h2 class='price'>$ ${price}</h2>
                 <div class="buttons">
                     <i onclick="decrement('${id}')" class="bi bi-dash-circle-fill"></i>
                     <div id=${id} class="quantity">${search.item === undefined ? 0:search.item}</div>

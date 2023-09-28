@@ -1,0 +1,35 @@
+/* style rules for cart-item */
+
+.cart-item {
+    border-radius: 9px;
+    display: flex;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  }
+  
+  .cart-item img {
+    border-radius: 9px 0 0 9px;
+  }
+  
+  .cart-item-price-total {
+    color: #264653;
+  }
+  
+  .title-price-x {
+    width: 195px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .title-price {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .cart-item-price {
+    background-color: #264653;
+    color: white;
+    border-radius: 4px;
+    padding: 3px 6px;
+  }

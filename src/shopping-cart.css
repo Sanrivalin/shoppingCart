@@ -1,0 +1,8 @@
+/* style rules for shopping-cart */
+
+.shopping-cart {
+    display: grid;
+    grid-template-columns: repeat(1, 320px);
+    justify-content: center;
+    gap: 15px;
+  }

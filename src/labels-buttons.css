@@ -1,0 +1,51 @@
+/* style rules for label and some buttons */
+
+.text-center {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .total-bill-title {
+    color: #264653;
+  }
+  
+  .cart-title {
+    color: #264653;
+  }
+  
+  .HomeBtn,
+  .checkout,
+  .removeAll {
+    background-color: #c5c5c5;
+    color: white;
+    border: none;
+    padding: 6px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .removeAll {
+    background-color: #3d3d3d;
+  }
+  
+  .removeAll:hover {
+    background-color: #ff5733;
+  }
+  
+  .checkout:hover {
+    background-color: #33c0b3;
+  }
+  
+  .HomeBtn:hover {
+    background-color: #33c0b3;
+  }
+  
+  .bi-x-lg {
+    color: #3a3a3a;
+    font-weight: 700;
+  }
+  
+  .cart-name {
+    color: #264653;
+  }

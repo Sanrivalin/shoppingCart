@@ -36,7 +36,7 @@ let generateCartItems = () => {
                     <div id=${id} class="quantity">${item}</div>
                     <i onclick="increment('${id}')" class="bi bi-plus-circle-fill"></i>
                 </div>
-                <h3>$ ${item * search.price}</h3>
+                <h3 class='cart-item-price-total'>$ ${item * search.price}</h3>
               </div>
             
             </div>
@@ -124,7 +124,7 @@ let TotalAmount = () => {
             return item * search.price;
         }).reduce((x,y)=>x+y,0);
         label.innerHTML= `
-        <h2>Total Bill : $ ${amount}</h2>
+        <h2 class='total-bill-title'>Total Bill : $ ${amount}</h2>
         <button class='checkout'>Checkout</button>
         <button onclick='clearCart()' class='removeAll'>Remove All</button>
         `
