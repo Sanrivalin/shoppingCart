@@ -6,7 +6,7 @@
     align-items: center;
     color: #264653;
     padding: 25px 60px;
-    margin-bottom: 30px;
+    margin-bottom: 6px;
   }
   
   .parallax-container {
@@ -14,7 +14,7 @@
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    height: 79vh;
+    height: 49vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@
     top: -6px;
     right: -4px;
     font-size: 16px;
-    background-color: #2a9d8f;
+    background-color: #005a0485;
     color: #fff;
     padding: 4px;
     border-radius: 4px;
