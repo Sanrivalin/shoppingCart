@@ -11,5 +11,5 @@ function executeAfterVideo() {
     dataLayer.push({
         'event': 'tutorial_complete',
     });
-    console.log('Video has ended!');
+    console.log('Event has been sended');
 }
