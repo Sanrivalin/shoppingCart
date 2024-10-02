@@ -48,15 +48,28 @@
             Your browser does not support the video tag.
         </video>
     </div>
+
+    <!-- Video Section -->
+    <div class="video-section">
+        <div id="player"></div>
+        <div class="controls">
+            <button onclick="retroceder()">Retroceder 10s</button>
+            <button onclick="playVideo()">Play</button>
+            <button onclick="pauseVideo()">Pausa</button>
+            <button onclick="adelantar()">Adelantar 10s</button>
+        </div>
+    </div>
   
     <footer class="footer-cart">
         <div class="footer-content">
             Copyright © 2023 Santiago Rivas. All Rights Reserved.
         </div>
     </footer>
+    <script src="https://www.youtube.com/iframe_api"></script>
     <script src="./src/Data.js"></script>
     <script src="./src/cart.js"></script>
     <script src="./src/ga4.js"></script>
     <script src="./src/video.js"></script>
+    <script src="./src/youtube.js"></script>
 </body>
 </html>
